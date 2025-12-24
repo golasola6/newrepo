@@ -81,7 +81,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyDeveloperSupport')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [MoviesAdda](https://t.me/real_MoviesAdda6)</b>⚡\n\n📂<b>File Name:</b> ⪧ {file_caption}\n❤🔻")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [POPZAPHUB](https://t.me/POPZAPHUB)</b>⚡\n\n📂<b>File Name:</b> ⪧ {file_caption}\n❤🔻")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<a href={url}>{title} {year}</a>\n❤You searched: {query}")
@@ -107,11 +107,11 @@ LAZY_MODE = bool(environ.get("LAZY_MODE")) #make it true to enable file renaming
 
 
 # Requested Content template variables --- 
-ADMIN_USRNM = environ.get('ADMIN_USRNM','LazyDeveloperr') # WITHOUT @
-MAIN_CHANNEL_USRNM = environ.get('MAIN_CHANNEL_USRNM','MoviesAdda6') # WITHOUT @
-DEV_CHANNEL_USRNM = environ.get('DEV_CHANNEL_USRNM','LazyDeveloper') # WITHOUT @
-LAZY_YT_HANDLE = environ.get('LAZY_YT_HANDLE','LayDeveloperr')  # WITHOUT @ [  add only handle - don't add full url  ] 
-MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "+GxRpsXXqn2M2MTdl") #[ without @ ]
+ADMIN_USRNM = environ.get('ADMIN_USRNM','POPZAPHUB') # WITHOUT @
+MAIN_CHANNEL_USRNM = environ.get('MAIN_CHANNEL_USRNM','POPZAPHUB') # WITHOUT @
+DEV_CHANNEL_USRNM = environ.get('DEV_CHANNEL_USRNM','POPZAPHUB') # WITHOUT @
+LAZY_YT_HANDLE = environ.get('LAZY_YT_HANDLE','POPZAPHUB')  # WITHOUT @ [  add only handle - don't add full url  ] 
+MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "POPZAPHUB") #[ without @ ]
 
 # Url Shortner
 URL_MODE = is_enabled((environ.get("URL_MODE","True")), False) # make it true to enable url shortner in groups or pm
@@ -207,18 +207,18 @@ DISCUSSION_CHAT_USRNM = "Discusss_Here" #without @
 
 # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/+tgPf04FXMOllMWVl"
+DOWNLOAD_TEXT_URL = "https://t.me/POPZAPHUB"
 
 # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/+tgPf04FXMOllMWVl"
+CAPTION_BUTTON_URL = "https://t.me/POPZAPHUB"
 
 # configuration
 MAX_SUBSCRIPTION_TIME = int(environ.get('MAX_SUBSCRIPTION_TIME', '24')) # KEEP THIS VALUES IN HOURS ⏰🕛
 FILE_AUTO_DELETE_TIME = int(environ.get('FILE_AUTO_DELETE_TIME', '300')) #in seconds - 300 seconds ==> 5 minutes 
 GROUP_MSG_DELETE_TIME = int(environ.get('GROUP_MSG_DELETE_TIME', '600')) #in seconds - 600 seconds ==> 10 minutes 
-# DONATION_LINK = environ.get("DONATION_LINK","https://buymeacoffee.com/lazydeveloperr")
-DONATION_LINK = environ.get("DONATION_LINK","https://buymeacoffee.com/lazyDeveloperr")
+# DONATION_LINK = environ.get("DONATION_LINK","https://t.me/POPZAPHUB")
+DONATION_LINK = environ.get("DONATION_LINK","https://t.me/POPZAPHUB")
 CHANNELS_PER_PAGE = 8 # AUTH CHANELS LISTS ## FOR ADMINS ❤
 DAILY_LIMIT = 1
 
